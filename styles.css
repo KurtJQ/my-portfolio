@@ -52,18 +52,51 @@ li a:hover{
     align-items: center;  
 }
 
-span{
+.logo span{
     padding-left: 0.6rem;
     font-size: 1.6rem;
 }
 
-img{
+.logo img{
     width: 4rem;
     height: 4rem;
     border-radius: 40px;;
 }
 
 .info{
-    display:block;
-    padding: 6rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.main img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.name:hover{
+    color: cornflowerblue;
+    transition: 0.2s;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media img{
+    width: 50px;
+    height: 50px;
+    padding: 0.8rem;
+}
+
+footer{
+    font-weight: 600;
 }
