@@ -1,3 +1,42 @@
+function JSE1(){
+    const days = 365
+    const weeks = 52
+    const months = 12
+    const years = 90
+    
+    var age = prompt("Enter your Age")
+    var daysLeft = (days * years) - (age * days)
+    var weeksLeft = (weeks * years) - (age * weeks)
+    var monthsLeft = (months * years) - (age * months)
+    
+    alert(
+      "In days, you have " + daysLeft + " left. In weeks, you have " + weeksLeft + " left. In months, you have " + monthsLeft + " left."
+    )
+}
+function JSE2(){
+    var salary = 250
+
+    var firstname = prompt("First Name?")
+    var lastname = prompt("Last Name?")
+    var middlename = prompt("Middle Initial?")
+    var birthyear = prompt("What is your birth year?")
+    var daysWorked = prompt("How many days do you work?")
+    var hoursWorked = 8 * daysWorked
+    var grossSalary = salary * hoursWorked
+    var tax = grossSalary * 0.15
+    var netSalary = grossSalary - tax
+    var age = 2023 - birthyear
+    
+    alert(
+      "Name: " + lastname + ", " + firstname + " " + middlename + "\n" +
+      "Age: " + age + " Years old\n" +
+      "Total Work Days: " + daysWorked + "\n" +
+      "Total Work Hours: " + hoursWorked + "\n" +
+      "Gross Salary: " + grossSalary + "\n" +
+      "Net Salary: " + netSalary + "\n" +
+      "Tax: " + tax
+    )
+}
 function JSE3(){
     var firstGrade = prompt("Enter your First Grade")
     var secondGrade = prompt("Enter your Second Grade")
