@@ -70,7 +70,7 @@ function JSE3(){
 }
 
 function JSE4(){
-    let input = prompt("What time is it?")
+    let input = prompt("What time is it? (Morning, Afternoon, Evening)")
 
     function greetMe(time){
         time = time.toUpperCase()
